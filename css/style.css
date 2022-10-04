@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,500;0,800;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+}
+/*************HEADER**************/
+
+header{
+    position: sticky;
+    top: 0%;
+}
+
+header .topHeader{
+    background-color: #1fdf5e;
+    display: flex;
+    top: 0%;
+    font-size: 8px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    letter-spacing: 1px;
+    padding: 0px 80px 0px 80px
+}
+
+header .topHeader h1{
+    top:0%;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+header .topHeader div a{
+    font-size: 10px;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    border-left: 1px solid rgba(255, 255, 255, 0.527);
+
+
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.744);
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    padding: 5%;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cart div a{
+    text-transform:uppercase;
+    color:#000;
+    letter-spacing: .02em;
+    font-size: 12px;
+}
+
+.cart .account {
+    border-right: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+header section div nav ul {
+    list-style: none;
+}
+
+header section div nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+header section div nav ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: black;
+    font-size: 14px;
+    letter-spacing: .02em;
+}
+
+
+
+/*************MAIN**************/
+
+.bannerHero{
+    background-image: url(../img/BannerHero.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+
+.containerBanner{
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 40px;
+}
+
+.bannerHero div h2{
+    margin: 20px;
+}
+
+.bannerHero div div{
+    margin-right: 30px;
+}
+
+.bannerHero div div a{
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.bannerCategoryx3{
+    display: flex;
+    justify-content: center;
+    top: 0%;
+}
+
+.bannerCategoryx3 div{
+    padding: 10px;
+}
+
+.bannerCategoryx3 div h3{
+    text-align: center;
+    background-color: #000;
+    color: white;
+}
+
+.bannerCategoryx3 div img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.bannerTable div h2{
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+    /* position: relative;
+    bottom: 550px; */
+}
+
+.fixed div img {
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.titleMain h2{
+    text-align: center;
+    background-color: #1fdf5e;
+    color: #fff;
+    margin: 30px 0px 30px 0px;
+}
+
+.formContainer .form{
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    padding-top: 30px;
+}
+
+.formContainer .form .formLabel{
+    display: block;
+    color: #1fdf5e;
+    font-size: 16px;
+    position: relative;
+}
+
+.formContainer .form .formInput, .formTextArea{
+    background: rgba(0, 0, 0, .7);
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #1fdf5e;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.formContainer .form .btnSubmit{
+    width: 100%;
+    outline: none;
+    background: #1fdf5e;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    border-radius: 5px;
+}
+
+.productCategory{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 0%;
+}
+
+.productCategory div img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.productCategory div {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid rgba(161, 161, 163, 0.553);
+    height: 350px;
+    border-radius: 15px;
+}
+
+.productCategory div h3{
+    color: #000;
+
+}
+
+.quienesSomos p{
+    margin: 40px;
+}
+
+.quienesSomos img{
+    width: 100%;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.faq div{
+    margin: 15px;
+}
+
+
+
+
+/*************FOOTER**************/
+.mainFooter{
+    background-color: #777;
+    list-style: none;
+    color:#fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    padding: 20px;
+    margin-top: 40px;
+}
+.bottonFooter{
+    background-color: #5b5b5b;
+    color:#fff;
+    text-align: center;
+    padding:10px;
+}
+
+footer div{
+    font-size: 13px;
+}
+
+footer div div li a {
+    display: block;
+    /* padding: 10px 10px; */
+    color: rgb(250, 250, 250);
+    /* font-size: 15px; */
+}
+
+footer div div h3{
+    padding: 0px 0px 15px 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+} 
+
+.news input{
+    width: 250px;
+    height: 35px;
+}
+
+.news a h5{
+    background-color: #000;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+
+}
+
