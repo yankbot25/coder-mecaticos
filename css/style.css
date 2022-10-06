@@ -9,6 +9,10 @@
 }
 /*************HEADER**************/
 
+html {
+    scroll-behavior: smooth;
+}
+
 header{
     position: sticky;
     top: 0%;
