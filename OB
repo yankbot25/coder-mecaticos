@@ -1,0 +1,54 @@
+[33mcommit 1650a86a971876df6e6b7e3f93b5e4e871b4f895[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Wed Oct 5 18:53:40 2022 -0500
+
+    primer commit
+
+[33mcommit 07b5d752dc839dd341f701b610ca9664839987e2[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 20:18:01 2022 -0500
+
+    seccion info
+
+[33mcommit 2dc536ca442f536db20852d25f269d07419af207[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 20:10:36 2022 -0500
+
+    color negro
+
+[33mcommit cd0eebdca27ebb9927f553c5bac45987f8e1def3[m
+Merge: f654649 83f81f9
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 20:00:35 2022 -0500
+
+    Merge branch 'prueba'
+
+[33mcommit f654649ceb4db2227b6b6bccbff7e7c99ddf5724[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 19:58:07 2022 -0500
+
+    ajuste index
+
+[33mcommit 83f81f974a47fb41fb6363b01452e5c17aefcb9f[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 19:55:11 2022 -0500
+
+    cambio color
+
+[33mcommit f204d04150a3f46dac9320d7ee31022da9954eb7[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 19:38:37 2022 -0500
+
+    cambio menu
+
+[33mcommit debe5098e18d31f523ed252afb476eb29aaa0f52[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 19:15:59 2022 -0500
+
+    MOdificacion Menu
+
+[33mcommit b2ad9d8bb8dc7a0eb18a0188dfa8dbb735ee05b3[m
+Author: Andres Botia <andrescbotia@gmail.com>
+Date:   Mon Oct 3 19:11:55 2022 -0500
+
+    Error Index
